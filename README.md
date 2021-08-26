@@ -11,7 +11,8 @@ This repository contains:
   <br />g) Mechanics (Dynamic),
   <br />e) Mechanics (static),
   <br />f) Mechanics (Static-by another professor),
-  <br />g) Physics
+  <br />g) Physics (Quantum Physics)
+  <br />h) Physics (Electrostatics).
 3. Notes of all the ***Practical*** subjects:
   <br />a) CS,
   <br />b) Electronics, 
