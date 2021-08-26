@@ -1,5 +1,6 @@
 # Sem_2PDFs
-This repository contains:
+This repository contains the resource materials for BTech semester_2 students(all branches). There may be slight variation in the syllabus depending upon the colleges. The current syllabus is according to the latest syllabus followed by University of Calcutta for BTech Semester_2.
+The main folders contains:
 1. The ***syllabus*** for sem_2.
 2. All my sem_2 notes for ***theory*** subjects: 
   <br />a) Digital Electronics 
