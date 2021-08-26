@@ -1,0 +1,31 @@
+Q3: String Plaindrome:
+
+
+#include<stdio.h>
+main()
+{
+	char a[100];
+	int i,l,f=0,c;
+	printf("Enter a string: ");
+	scanf("%[^\n]s",a);
+	while(a[l]!='\0')
+	{
+		l++;
+	}
+	for(i=0;i<=l/2;i++)
+	{
+		if(a[i]!=a[l-i-1])
+		{
+			f=1;
+			break;
+		}
+	}
+	if(f==1)
+	printf("NOT PALINDROME");
+	else
+	printf("PALINDROME");
+	
+
+}
+
+

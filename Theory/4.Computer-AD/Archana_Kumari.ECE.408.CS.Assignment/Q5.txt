@@ -1,0 +1,41 @@
+//Archana Kumari.ECE.408
+//Q5: Word Replacement: ayan is a bad boy, good, bad   =>  ayan is a bad boy.
+
+#include <stdio.h>
+#include <string.h>
+
+void wordReplacement( char str[], char remove[], char add[] ) {
+
+   char wordCut[100];
+   int i = 0, j = 0;
+   printf("The new string  : ");
+   for (; str[i] != '\0'; ++i) {
+      for(j = 0; (str[i] != ' ' && str[i] != '\0'); ++j) 
+        wordCut[j] = str[i++];
+   wordCut[j] = '\0';
+   
+   if(!strcmp(wordCut, remove))
+     printf("%s ", add);
+
+   else
+     printf("%s ", wordCut);
+   
+  }
+}
+
+
+int main() {
+
+   char str[100], remove[100], add[100];
+   printf("Enter the string: ");
+   gets(str);
+   printf("Remove string   : ");
+   gets(remove);
+   printf("Add string      : ");
+   gets(add);
+   printf("\n");
+
+   wordReplacement( str, remove, add);
+
+return 0;
+}

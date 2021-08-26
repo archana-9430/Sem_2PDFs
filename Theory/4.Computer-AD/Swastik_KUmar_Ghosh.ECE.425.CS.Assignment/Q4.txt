@@ -1,0 +1,42 @@
+//Q4: Character Frequency:
+
+
+#include<stdio.h>
+#include<math.h>
+main()
+{
+	char a[100];
+	int l,i,f,j,c,b,k;
+
+	printf("Enter a string:");
+	scanf("%[^\n]s",a);
+		while(a[l]!='\0')
+	{
+		l++;
+	}
+	
+	for(i=0;i<=l-1;i++)
+	{
+		f=0;
+		for(k=0;k<i;k++)
+		{
+			if(a[i]==a[k])
+			f=1;
+		}
+		if(f==1)
+		continue;
+		c=0;
+		for(j=0;j<=l-1;j++)
+		{
+			if(a[i]==a[j])
+			{
+				c++;
+			}
+		
+			
+		}
+			printf("\n%c is %d times in the string",a[i],c);
+	
+	}
+}
+

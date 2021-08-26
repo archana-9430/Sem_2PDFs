@@ -1,0 +1,27 @@
+//Archana Kumari.ECE.408
+//Q3: String Palindrome without GOOGLE and string.h
+
+#include <stdio.h>
+
+int main() {
+ char str[200];
+ printf("Enter a string: ");
+ gets(str);
+
+ int i = 0, count = 0;
+ for(;str[i] != '\0'; ++i) {
+   ++count;
+ }
+
+ //checking if the (first++) and (last--) characters are equal.
+ for(i = 0 ; i <= (int)count/2; ++i) {
+   if(str[i] != str[count - i -1])
+      break;
+ }
+
+ if(i > (int)count/2)
+   printf("\nYes!! It's a palindrome string.");
+ else
+   printf("\nOOPS!! It's not a palindrome string.");
+return 0;
+}

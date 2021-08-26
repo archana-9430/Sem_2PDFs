@@ -1,0 +1,26 @@
+//Archana Kumari.ECE.408
+//Q2: String reverse without using GOOGLE and string.h 
+
+#include <stdio.h>
+
+int main() {
+    printf("Enter a string: ");
+    char str[100], revStr[100];
+    gets(str);
+
+    int i = 0, length = 0;
+    for(i = 0; str[i] != '\0'; ++i)
+        ++length;
+
+    int last = length;
+
+    for(i = 0; i < length; ++i) 
+//inserting the characters of the given string from last to the start of the reversed string.
+        revStr[i] = str[--last];  
+     
+    revStr[i] = '\0';  //adding the null character to the reversed string.
+    printf("\nReversed string: ");
+    puts(revStr);
+
+return 0;
+}

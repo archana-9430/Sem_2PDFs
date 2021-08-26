@@ -1,0 +1,35 @@
+//Archana Kumari.ECE.408
+//Q4: Character frequency:  ayan:  a 2 y 1 n 1.
+#include <stdio.h>
+#include <string.h>
+
+void freq(char str1[]) {
+int l = strlen(str1);
+int i = 0, j = 0;
+
+for(; i<l; ++i) {
+  //initialise frequency of characters present in the string as 1
+  int count = 1;   
+
+  //loop to increment count if same character is present elsewhere
+  for(j = i + 1; j < l; ++j) {
+      if(str1[i] == str1[j]) {
+         ++count;
+  //marking the counted characters to avoid duplicates
+         str1[j] = '0';  
+      }
+    }
+    if (str1[i] != '0' && str1[i] != ' ')
+  //printing the character and its frequency
+      printf("%c %d ", str1[i], count);
+  }
+}
+
+int main() {
+printf("Enter a string: ");
+char str[100];
+gets(str);
+
+freq(str);
+return 0;
+}

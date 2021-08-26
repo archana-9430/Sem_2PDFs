@@ -1,0 +1,34 @@
+Q1:Signature Case:
+
+
+#include<stdio.h>
+#include<string.h>
+main()
+{
+	int i,l,j,k,m;
+	char name[100],ln[50];
+	printf("Enter full name: ");
+	scanf("%[^\n]s",name);
+	l=strlen(name);
+	printf("Signature is: ");
+	printf("%c.",name[0]);
+	for(j=l;j>1;j--)
+	{
+		k++;
+		if(name[j]==' ')
+		break;
+	}
+	for(i=0;i<=l-k;i++)
+	{
+		if(name[i]==' ')
+		{
+			printf("%c.",name[i+1]);
+		}
+	}
+	for(m=l-k+2;m<=l;m++)
+	{
+		printf("%c",name[m]);
+	}
+}
+
+

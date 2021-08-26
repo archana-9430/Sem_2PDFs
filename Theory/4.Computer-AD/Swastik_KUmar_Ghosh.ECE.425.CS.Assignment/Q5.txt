@@ -1,0 +1,48 @@
+Q5: Word Replacement:
+
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+        char str2[150]=" ",w[20],r[20],neww[20][20],str[100];
+        int i=0,len=0;
+        const char del[2]=" ";
+        char *token;
+        printf("\nEnter a string: ");
+        gets(str);
+        printf("\nEnter the word to replace: ");
+        gets(w);
+        printf("\nEnter the word to replace it with: ");
+        gets(r);
+        printf("\nEntered String is : ");
+        puts(str);
+        token=strtok(str,del);
+        if(strcmp(token,w)==0)
+                strcpy(neww[i],r);
+
+        else
+                strcpy(neww[i],token);
+       i=0;
+        while(token!=NULL)
+        {
+
+                if(strcmp(token,w)==0)
+                        strcpy(neww[i],r);
+
+                else
+                        strcpy(neww[i],token);
+                token=strtok(NULL,del);
+                i++;
+        }
+        len=i;
+        printf("\nAfter replacing : ");
+        strcpy(str2,neww[0]);
+        for(i=1; i<len; i++) {
+                strcat(str2," ");
+                strcat(str2,neww[i]);
+        }
+        puts(str2);
+        return(0);
+}
+
