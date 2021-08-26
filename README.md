@@ -1,7 +1,7 @@
 # Sem_2PDFs
 This repository contains:
 1. The ***syllabus*** for sem_2.
- <br />
+<br />
 2. All my sem_2 notes for ***theory*** subjects: 
   <br />a) Physics, 
   <br /> b) Maths,
@@ -16,6 +16,6 @@ This repository contains:
  <br /> d) Physics.
  <br />
 4. All the ***PYQs for sem_2 midsems examinations***.
-5. <br />
+<br />
 6. Also, all my question papers for ***sem_2 final examinations***.
 
