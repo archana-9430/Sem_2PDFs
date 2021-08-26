@@ -7,11 +7,14 @@ This repository contains:
   <br />c) CS,
   <br />d) Electronics and
   <br />e) Mechanics 
+  <br />
 3. Notes of all the **Practical** subjects:
-  a) CS,
-  b) Electronics, 
-  c) Engineering Drawing and
-  d) Physics.
+  <br />a) CS,
+  <br />b) Electronics, 
+  <br />c) Engineering Drawing and
+ <br /> d) Physics.
+ <br />
 4. All the **PYQs for sem_2 midsems examinations**.
-5. Also, all my question papers for **sem_2 final examinations**.
+5. <br />
+6. Also, all my question papers for **sem_2 final examinations**.
 
