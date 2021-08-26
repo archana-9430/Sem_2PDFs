@@ -2,11 +2,11 @@
 This repository contains:
 1. The **syllabus** for sem_2.
 2. All my sem_2 notes for **theory** subjects: 
-  a) Physics, 
-  b) Maths,
-  c) CS,
-  d) Electronics and
-  e) Mechanics 
+  <br />a) Physics, 
+  <br /> b) Maths,
+  <br />c) CS,
+  <br />d) Electronics and
+  <br />e) Mechanics 
 3. Notes of all the **Practical** subjects:
   a) CS,
   b) Electronics, 
